@@ -24,13 +24,15 @@ namespace Demo123
             bool marriedstatus = bool.Parse(Console.ReadLine());
 
 
-            Console.WriteLine("Your name is: " + name);
-            Console.WriteLine("Your age is :" + age);
-            Console.WriteLine("Your Height is :" + height);
-            Console.WriteLine("Your Married Status is :" + marriedstatus);
+            //Console.WriteLine("Your name is: " + name);
+            //Console.WriteLine("Your age is :" + age);
+            //Console.WriteLine("Your Height is :" + height);
+            //Console.WriteLine("Your Married Status is :" + marriedstatus);
 
             //Console.WriteLine("Your name is :" + name + "\nyour age is:" + age + "\nyour height is:" + height + "Married status:" + marriedstatus);
             Console.WriteLine("Your name is {0}:  your age is {1}: your height is {2} : Married status {3}:", age, name, height, marriedstatus);
+
+            Console.WriteLine("Hello world");
 
 
         }
